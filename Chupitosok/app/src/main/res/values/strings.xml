@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chupitos ok</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listafavs">Listafavs</string>
+    <string name="title_activity_lista_todos">Lista todos</string>
+    <string name="title_activity_incluir_chupito">IncluirChupito</string>
+    <string-array name="niveles">
+        <item>Fuerte</item>
+        <item>Medio</item>
+        <item>Suave</item>
+    </string-array>
+
+    <string name="Nombre">Nombre</string>
+    <string name="Ingredientes">Ingredientes</string>
+
+    <string name="asunto_recomendar_amigo">Recomendar aplicación</string>
+<string name="cuerpo_recomendar_amigo">Quería recomendarte que instales la aplicación ...
+    <!--<string name="uri">paapaa</string>     añadir url de la imagen que compartamos  -->
+
+</string>
+    <string name="enviar_chooser">Compartir app con:</string>
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alexgas.shoots.Incluir_Chupito"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Incluir"
+        android:id="@+id/buttonincluir"
+        android:onClick="onClick"
+        android:layout_below="@+id/spinnernivel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/ingr_incluir"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Ingredientes"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/nombre_incluir"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre_incluir"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Nombre"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnernivel"
+        android:focusableInTouchMode="false"
+        android:layout_below="@+id/ingr_incluir"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
